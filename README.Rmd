@@ -11,28 +11,19 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
 )
+library(tidyverse)
 ```
 
-# [Your Project] 
+# Don't mess with Texas
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of [Your Project] is to ...
+Highlight executed offenders database from Texas Dept of Justice
 
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
+```{r tree-folder, echo=FALSE}
+fs::dir_tree(".")
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. 
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
 
 
